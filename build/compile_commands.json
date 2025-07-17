@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/se1d/simple-pgw-master/build/src",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_ASIO_NO_DEPRECATED -I/home/se1d/boost_1_87_0 -I/home/se1d/simple-pgw-master/src -g -std=gnu++23 -Werror -Wall -Wextra -Wpedantic -Wno-error=maybe-uninitialized -o CMakeFiles/simple_pgw_lib.dir/bearer.cpp.o -c /home/se1d/simple-pgw-master/src/bearer.cpp",
+  "file": "/home/se1d/simple-pgw-master/src/bearer.cpp",
+  "output": "src/CMakeFiles/simple_pgw_lib.dir/bearer.cpp.o"
+},
+{
+  "directory": "/home/se1d/simple-pgw-master/build/src",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_ASIO_NO_DEPRECATED -I/home/se1d/boost_1_87_0 -I/home/se1d/simple-pgw-master/src -g -std=gnu++23 -Werror -Wall -Wextra -Wpedantic -Wno-error=maybe-uninitialized -o CMakeFiles/simple_pgw_lib.dir/control_plane.cpp.o -c /home/se1d/simple-pgw-master/src/control_plane.cpp",
+  "file": "/home/se1d/simple-pgw-master/src/control_plane.cpp",
+  "output": "src/CMakeFiles/simple_pgw_lib.dir/control_plane.cpp.o"
+},
+{
+  "directory": "/home/se1d/simple-pgw-master/build/src",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_ASIO_NO_DEPRECATED -I/home/se1d/boost_1_87_0 -I/home/se1d/simple-pgw-master/src -g -std=gnu++23 -Werror -Wall -Wextra -Wpedantic -Wno-error=maybe-uninitialized -o CMakeFiles/simple_pgw_lib.dir/data_plane.cpp.o -c /home/se1d/simple-pgw-master/src/data_plane.cpp",
+  "file": "/home/se1d/simple-pgw-master/src/data_plane.cpp",
+  "output": "src/CMakeFiles/simple_pgw_lib.dir/data_plane.cpp.o"
+},
+{
+  "directory": "/home/se1d/simple-pgw-master/build/src",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_ASIO_NO_DEPRECATED -I/home/se1d/boost_1_87_0 -I/home/se1d/simple-pgw-master/src -g -std=gnu++23 -Werror -Wall -Wextra -Wpedantic -Wno-error=maybe-uninitialized -o CMakeFiles/simple_pgw_lib.dir/pdn_connection.cpp.o -c /home/se1d/simple-pgw-master/src/pdn_connection.cpp",
+  "file": "/home/se1d/simple-pgw-master/src/pdn_connection.cpp",
+  "output": "src/CMakeFiles/simple_pgw_lib.dir/pdn_connection.cpp.o"
+},
+{
+  "directory": "/home/se1d/simple-pgw-master/build/src",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_ASIO_NO_DEPRECATED -I/home/se1d/boost_1_87_0 -I/home/se1d/simple-pgw-master/src -g -std=gnu++23 -Werror -Wall -Wextra -Wpedantic -Wno-error=maybe-uninitialized -o CMakeFiles/simple_pgw.dir/main.cpp.o -c /home/se1d/simple-pgw-master/src/main.cpp",
+  "file": "/home/se1d/simple-pgw-master/src/main.cpp",
+  "output": "src/CMakeFiles/simple_pgw.dir/main.cpp.o"
+},
+{
+  "directory": "/home/se1d/simple-pgw-master/build/test",
+  "command": "/usr/bin/g++  -I/home/se1d/simple-pgw-master/test -I/home/se1d/boost_1_87_0 -I/home/se1d/simple-pgw-master/src -isystem /home/se1d/simple-pgw-master/build/_deps/googletest-src/googletest/include -isystem /home/se1d/simple-pgw-master/build/_deps/googletest-src/googletest -isystem /home/se1d/simple-pgw-master/build/_deps/googletest-src/googlemock/include -isystem /home/se1d/simple-pgw-master/build/_deps/googletest-src/googlemock -g -std=gnu++23 -Werror -Wall -Wextra -Wpedantic -Wno-error=maybe-uninitialized -o CMakeFiles/simple_pgw_tests.dir/data_plane_test.cpp.o -c /home/se1d/simple-pgw-master/test/data_plane_test.cpp",
+  "file": "/home/se1d/simple-pgw-master/test/data_plane_test.cpp",
+  "output": "test/CMakeFiles/simple_pgw_tests.dir/data_plane_test.cpp.o"
+},
+{
+  "directory": "/home/se1d/simple-pgw-master/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/g++  -I/home/se1d/simple-pgw-master/build/_deps/googletest-src/googlemock/include -I/home/se1d/simple-pgw-master/build/_deps/googletest-src/googlemock -isystem /home/se1d/simple-pgw-master/build/_deps/googletest-src/googletest/include -isystem /home/se1d/simple-pgw-master/build/_deps/googletest-src/googletest -g -std=c++23 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/se1d/simple-pgw-master/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/se1d/simple-pgw-master/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/se1d/simple-pgw-master/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/g++  -isystem /home/se1d/simple-pgw-master/build/_deps/googletest-src/googlemock/include -isystem /home/se1d/simple-pgw-master/build/_deps/googletest-src/googlemock -isystem /home/se1d/simple-pgw-master/build/_deps/googletest-src/googletest/include -isystem /home/se1d/simple-pgw-master/build/_deps/googletest-src/googletest -g -std=c++23 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/se1d/simple-pgw-master/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/se1d/simple-pgw-master/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/se1d/simple-pgw-master/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/g++  -I/home/se1d/simple-pgw-master/build/_deps/googletest-src/googletest/include -I/home/se1d/simple-pgw-master/build/_deps/googletest-src/googletest -g -std=c++23 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/se1d/simple-pgw-master/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/se1d/simple-pgw-master/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/se1d/simple-pgw-master/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/g++  -isystem /home/se1d/simple-pgw-master/build/_deps/googletest-src/googletest/include -isystem /home/se1d/simple-pgw-master/build/_deps/googletest-src/googletest -g -std=c++23 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/se1d/simple-pgw-master/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/se1d/simple-pgw-master/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+}
+]
